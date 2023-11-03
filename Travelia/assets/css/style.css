@@ -127,7 +127,7 @@ a {
 
 input,
 button {
-  backgroud: none;
+  background: none;
   border: none;
   font: inherit;
 }
@@ -156,7 +156,7 @@ html {
 }
 
 body {
-  backgroud-color: var(--bg-lavender-blush);
+  background-color: var(--bg-lavender-blush);
   color: var(--text-granite-gray);
   font-size: var(--fontSize-6);
   line-height: 1.8;
