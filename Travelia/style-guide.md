@@ -4,17 +4,26 @@
 
 Google font
 
-``` html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 Ionicon
 
-``` html
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+```html
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
 ```
 
 ---
@@ -23,7 +32,7 @@ Ionicon
 
 ### Background color
 
-``` css
+```css
 --bg-white: hsl(0, 0%, 100%);
 --bg-black-alpha-20: hsla(0, 0%, 0%, 0.2);
 --bg-lavender-blush: hsl(0, 100%, 98%);
@@ -41,7 +50,7 @@ Ionicon
 
 ### Text color
 
-``` css
+```css
 --text-white: hsl(0, 0%, 100%);
 --text-gunmetal: hsl(209, 40%, 14%);
 --text-light-coral: hsl(357, 96%, 73%);
@@ -52,14 +61,14 @@ Ionicon
 
 ### Border color
 
-``` css
+```css
 --border-gainsboro: hsl(0, 1%, 85%);
 ```
 
 ## Typography
 
-``` css
---ff-poppins: 'Poppins', sans-serif;
+```css
+--ff-poppins: "Poppins", sans-serif;
 
 --fontSize-1: 4.2rem;
 --fontSize-2: 3.6rem;
@@ -76,13 +85,13 @@ Ionicon
 
 ## Spacing
 
-``` css
+```css
 --section-spacing: 80px;
 ```
 
 ## Shadow
 
-``` css
+```css
 --shadow-1: 0 2px 10px hsla(209, 40%, 14%, 10%);
 --shadow-2: 0 5px 10px hsla(249, 95%, 63%, 25%);
 --shadow-3: 0 5px 10px hsla(357, 64%, 53%, 25%);
@@ -91,7 +100,7 @@ Ionicon
 
 ## Border Radius
 
-``` css
+```css
 --radius-pill: 200px;
 --radius-circle: 50%;
 --radius-30: 30px;
@@ -100,7 +109,7 @@ Ionicon
 
 ## Transition
 
-``` css
+```css
 --transition-1: 250ms ease;
 --transition-2: 500ms ease;
 --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
