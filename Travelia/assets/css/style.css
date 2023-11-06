@@ -213,7 +213,7 @@ body.nav-active {
   padding-block-end: var(--section-spacing);
 }
 
-.has-bg-image. {
+.has-bg-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
